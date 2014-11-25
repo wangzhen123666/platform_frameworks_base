@@ -127,5 +127,8 @@
   <java-symbol type="string" name="privacy_guard_notification_detail" />
   <java-symbol type="string" name="privacy_guard_dialog_title" />
   <java-symbol type="string" name="privacy_guard_dialog_summary" />
+
+  <!-- Enable power button on secured lockscreen -->
+  <java-symbol type="bool" name="config_powerButtonLockscreenEnabled" />
 </resources>
 
