@@ -3465,6 +3465,12 @@ public final class Settings {
          * @hide
          */
         public static final String NAVBAR_LEFT_IN_LANDSCAPE = "navigation_bar_left";
+      
+        /**
+         * Volume rocker wake
+         * @hide
+         */
+        public static final String VOLUME_ROCKER_WAKE = "volume_rocker_wake";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
