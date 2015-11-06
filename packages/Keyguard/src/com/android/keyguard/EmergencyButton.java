@@ -164,6 +164,11 @@ public class EmergencyButton extends Button {
                     KeyguardUpdateMonitor monitor = KeyguardUpdateMonitor.getInstance(mContext);
                     visible = visible && !monitor.isOOS();
                 }
+
+                if (mContext.getResources().getBoolean(R.bool.kg_hide_emgcy_btn_when_oos)) {
+                    KeyguardUpdateMonitor monitor = KeyguardUpdateMonitor.getInstance(mContext);
+                    visible = visible && !monitor.isOOS();
+                }
             }
         }
         if (visible) {
