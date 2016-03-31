@@ -47,12 +47,6 @@ public class TunerFragment extends PreferenceFragment {
     private static final String TAG = "TunerFragment";
 
     private static final String KEY_QS_TUNER = "qs_tuner";
-<<<<<<< HEAD
-    private static final String KEY_DEMO_MODE = "demo_mode";
-    private static final String KEY_BATTERY_PCT = "battery_pct";
-=======
->>>>>>> 8ed5bf6... Remove demo mode, is useless.......
-
     public static final String SETTING_SEEN_TUNER_WARNING = "seen_tuner_warning";
 
     private static final int MENU_REMOVE = Menu.FIRST + 1;
