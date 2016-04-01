@@ -102,11 +102,9 @@ public class KeyguardStatusBarView extends RelativeLayout {
             removeView(mMultiUserSwitch);
         }
         boolean showBatteryLevel = getResources().getBoolean(R.bool.config_showBatteryPercentage);
-        mBatteryLevel.setVisibility(
-                mBatteryCharging || showBatteryLevel ? View.VISIBLE : View.GONE);
+        mBatteryLevel.setVisibility(View.VISIBLE);
         boolean showCarrierText = getResources().getBoolean(R.bool.config_showOperatorInKeyguard);
         mCarrierLabel.setVisibility(showCarrierText ? View.VISIBLE : View.GONE);
-        mBatteryLevel.setVisibility(View.VISIBLE);
     }
 
     private void updateSystemIconsLayoutParams() {
