@@ -113,7 +113,6 @@ public class BatteryMeterView extends View implements DemoMode,
 
     public BatteryMeterView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        mHandler = new Handler();
 
         mHandler = new Handler();
         final Resources res = context.getResources();
@@ -177,13 +176,6 @@ public class BatteryMeterView extends View implements DemoMode,
 
         setMeasuredDimension(width, height);
     }
-
-    private final Runnable mInvalidate = new Runnable() {
-        @Override
-        public void run() {
-            postInvalidate();
-        }
-    };
 
     @Override
     public void onAttachedToWindow() {
