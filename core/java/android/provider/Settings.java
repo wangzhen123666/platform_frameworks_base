@@ -3785,6 +3785,21 @@ public final class Settings {
          */
         public static final String PULSE_EMPTY_BLOCK_SIZE = "pulse_empty_block_size";
 
+        /**
+         * Change quick settings tiles animation style
+         *
+         * @hide
+         */
+        public static final String ANIM_TILE_STYLE = "anim_tile_style";
+
+
+        /**
+         * Change quick settings tiles animation duration
+         *
+         * @hide
+         */
+        public static final String ANIM_TILE_DURATION = "anim_tile_duration";
+
          /**
          * Pulse Fudge Factor
          * @hide
