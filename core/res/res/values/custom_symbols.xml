@@ -19,6 +19,4 @@
   <!-- google webview -->
   <java-symbol type="string" name="config_alternateWebViewPackageName" />
   
-  <!-- Hardware key rebinding -->
-  <java-symbol type="integer" name="config_deviceHardwareKeys" />
 </resources>
